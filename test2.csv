@@ -1,0 +1,1293 @@
+Crime Type,precinct,Date 2020
+Burglary,1,6
+Burglary,10,6
+Burglary,100,2
+Burglary,101,2
+Burglary,102,3
+Burglary,103,1
+Burglary,104,7
+Burglary,105,7
+Burglary,106,0
+Burglary,107,7
+Burglary,108,3
+Burglary,109,17
+Burglary,110,3
+Burglary,111,8
+Burglary,112,5
+Burglary,113,1
+Burglary,114,7
+Burglary,115,3
+Burglary,120,1
+Burglary,121,3
+Burglary,122,3
+Burglary,123,1
+Burglary,13,4
+Burglary,17,7
+Burglary,19,1
+Burglary,20,4
+Burglary,23,4
+Burglary,24,0
+Burglary,25,4
+Burglary,26,1
+Burglary,28,2
+Burglary,30,2
+Burglary,32,3
+Burglary,33,1
+Burglary,34,1
+Burglary,40,3
+Burglary,41,3
+Burglary,42,3
+Burglary,43,11
+Burglary,44,1
+Burglary,45,1
+Burglary,46,8
+Burglary,47,6
+Burglary,48,1
+Burglary,49,2
+Burglary,5,4
+Burglary,50,8
+Burglary,52,2
+Burglary,6,12
+Burglary,60,1
+Burglary,61,6
+Burglary,62,4
+Burglary,63,1
+Burglary,66,2
+Burglary,67,2
+Burglary,68,2
+Burglary,69,1
+Burglary,7,4
+Burglary,70,11
+Burglary,71,3
+Burglary,72,3
+Burglary,73,4
+Burglary,75,7
+Burglary,76,0
+Burglary,77,3
+Burglary,78,1
+Burglary,79,6
+Burglary,81,6
+Burglary,83,4
+Burglary,84,1
+Burglary,88,1
+Burglary,9,1
+Burglary,90,6
+Burglary,94,4
+Burglary,Central,0
+Burglary,Midtown,6
+Fel. Assault,1,2
+Fel. Assault,10,1
+Fel. Assault,100,3
+Fel. Assault,101,7
+Fel. Assault,102,3
+Fel. Assault,103,10
+Fel. Assault,104,5
+Fel. Assault,105,5
+Fel. Assault,106,6
+Fel. Assault,107,1
+Fel. Assault,108,2
+Fel. Assault,109,3
+Fel. Assault,110,8
+Fel. Assault,111,0
+Fel. Assault,112,0
+Fel. Assault,113,7
+Fel. Assault,114,1
+Fel. Assault,115,1
+Fel. Assault,120,6
+Fel. Assault,121,4
+Fel. Assault,122,2
+Fel. Assault,123,0
+Fel. Assault,13,6
+Fel. Assault,17,2
+Fel. Assault,19,2
+Fel. Assault,20,2
+Fel. Assault,23,7
+Fel. Assault,24,6
+Fel. Assault,25,3
+Fel. Assault,26,1
+Fel. Assault,28,5
+Fel. Assault,30,3
+Fel. Assault,32,5
+Fel. Assault,33,2
+Fel. Assault,34,6
+Fel. Assault,40,10
+Fel. Assault,41,4
+Fel. Assault,42,6
+Fel. Assault,43,18
+Fel. Assault,44,16
+Fel. Assault,45,4
+Fel. Assault,46,10
+Fel. Assault,47,20
+Fel. Assault,48,8
+Fel. Assault,49,3
+Fel. Assault,5,3
+Fel. Assault,50,2
+Fel. Assault,52,4
+Fel. Assault,6,0
+Fel. Assault,60,3
+Fel. Assault,61,1
+Fel. Assault,62,4
+Fel. Assault,63,3
+Fel. Assault,66,6
+Fel. Assault,67,5
+Fel. Assault,68,1
+Fel. Assault,69,2
+Fel. Assault,7,3
+Fel. Assault,70,8
+Fel. Assault,71,2
+Fel. Assault,72,2
+Fel. Assault,73,21
+Fel. Assault,75,21
+Fel. Assault,76,4
+Fel. Assault,77,4
+Fel. Assault,78,4
+Fel. Assault,79,4
+Fel. Assault,81,4
+Fel. Assault,83,3
+Fel. Assault,84,3
+Fel. Assault,88,1
+Fel. Assault,9,3
+Fel. Assault,90,6
+Fel. Assault,94,1
+Fel. Assault,Central,0
+Fel. Assault,Midtown,5
+G.L.A.,1,0
+G.L.A.,10,0
+G.L.A.,100,1
+G.L.A.,101,1
+G.L.A.,102,3
+G.L.A.,103,6
+G.L.A.,104,8
+G.L.A.,105,5
+G.L.A.,106,3
+G.L.A.,107,2
+G.L.A.,108,0
+G.L.A.,109,2
+G.L.A.,110,1
+G.L.A.,111,2
+G.L.A.,112,4
+G.L.A.,113,6
+G.L.A.,114,1
+G.L.A.,115,2
+G.L.A.,120,1
+G.L.A.,121,4
+G.L.A.,122,4
+G.L.A.,123,0
+G.L.A.,13,0
+G.L.A.,17,0
+G.L.A.,19,5
+G.L.A.,20,0
+G.L.A.,23,2
+G.L.A.,24,3
+G.L.A.,25,2
+G.L.A.,26,1
+G.L.A.,28,0
+G.L.A.,30,3
+G.L.A.,32,5
+G.L.A.,33,1
+G.L.A.,34,5
+G.L.A.,40,1
+G.L.A.,41,9
+G.L.A.,42,5
+G.L.A.,43,2
+G.L.A.,44,3
+G.L.A.,45,2
+G.L.A.,46,3
+G.L.A.,47,13
+G.L.A.,48,8
+G.L.A.,49,8
+G.L.A.,5,0
+G.L.A.,50,4
+G.L.A.,52,4
+G.L.A.,6,2
+G.L.A.,60,2
+G.L.A.,61,4
+G.L.A.,62,1
+G.L.A.,63,1
+G.L.A.,66,2
+G.L.A.,67,3
+G.L.A.,68,4
+G.L.A.,69,2
+G.L.A.,7,2
+G.L.A.,70,3
+G.L.A.,71,3
+G.L.A.,72,3
+G.L.A.,73,1
+G.L.A.,75,11
+G.L.A.,76,0
+G.L.A.,77,4
+G.L.A.,78,1
+G.L.A.,79,1
+G.L.A.,81,3
+G.L.A.,83,4
+G.L.A.,84,0
+G.L.A.,88,2
+G.L.A.,9,1
+G.L.A.,90,4
+G.L.A.,94,3
+G.L.A.,Central,0
+G.L.A.,Midtown,1
+Gr. Larceny,1,17
+Gr. Larceny,10,7
+Gr. Larceny,100,1
+Gr. Larceny,101,0
+Gr. Larceny,102,5
+Gr. Larceny,103,12
+Gr. Larceny,104,8
+Gr. Larceny,105,11
+Gr. Larceny,106,4
+Gr. Larceny,107,6
+Gr. Larceny,108,4
+Gr. Larceny,109,16
+Gr. Larceny,110,7
+Gr. Larceny,111,6
+Gr. Larceny,112,6
+Gr. Larceny,113,10
+Gr. Larceny,114,11
+Gr. Larceny,115,12
+Gr. Larceny,120,6
+Gr. Larceny,121,11
+Gr. Larceny,122,4
+Gr. Larceny,123,6
+Gr. Larceny,13,13
+Gr. Larceny,17,13
+Gr. Larceny,19,30
+Gr. Larceny,20,8
+Gr. Larceny,23,12
+Gr. Larceny,24,4
+Gr. Larceny,25,6
+Gr. Larceny,26,5
+Gr. Larceny,28,7
+Gr. Larceny,30,3
+Gr. Larceny,32,3
+Gr. Larceny,33,10
+Gr. Larceny,34,8
+Gr. Larceny,40,10
+Gr. Larceny,41,3
+Gr. Larceny,42,9
+Gr. Larceny,43,19
+Gr. Larceny,44,6
+Gr. Larceny,45,13
+Gr. Larceny,46,11
+Gr. Larceny,47,13
+Gr. Larceny,48,9
+Gr. Larceny,49,5
+Gr. Larceny,5,2
+Gr. Larceny,50,14
+Gr. Larceny,52,12
+Gr. Larceny,6,6
+Gr. Larceny,60,10
+Gr. Larceny,61,9
+Gr. Larceny,62,4
+Gr. Larceny,63,10
+Gr. Larceny,66,8
+Gr. Larceny,67,9
+Gr. Larceny,68,7
+Gr. Larceny,69,2
+Gr. Larceny,7,6
+Gr. Larceny,70,8
+Gr. Larceny,71,5
+Gr. Larceny,72,9
+Gr. Larceny,73,4
+Gr. Larceny,75,17
+Gr. Larceny,76,1
+Gr. Larceny,77,5
+Gr. Larceny,78,6
+Gr. Larceny,79,4
+Gr. Larceny,81,3
+Gr. Larceny,83,12
+Gr. Larceny,84,9
+Gr. Larceny,88,4
+Gr. Larceny,9,16
+Gr. Larceny,90,14
+Gr. Larceny,94,6
+Gr. Larceny,Central,0
+Gr. Larceny,Midtown,25
+Hate Crimes,1,0
+Hate Crimes,10,0
+Hate Crimes,100,0
+Hate Crimes,101,0
+Hate Crimes,102,0
+Hate Crimes,103,0
+Hate Crimes,104,0
+Hate Crimes,105,0
+Hate Crimes,106,0
+Hate Crimes,107,0
+Hate Crimes,108,0
+Hate Crimes,109,0
+Hate Crimes,110,0
+Hate Crimes,111,0
+Hate Crimes,112,0
+Hate Crimes,113,0
+Hate Crimes,114,0
+Hate Crimes,115,0
+Hate Crimes,120,0
+Hate Crimes,121,0
+Hate Crimes,122,0
+Hate Crimes,123,0
+Hate Crimes,13,0
+Hate Crimes,17,0
+Hate Crimes,19,0
+Hate Crimes,20,0
+Hate Crimes,23,0
+Hate Crimes,24,1
+Hate Crimes,25,0
+Hate Crimes,26,0
+Hate Crimes,28,0
+Hate Crimes,30,0
+Hate Crimes,32,0
+Hate Crimes,33,0
+Hate Crimes,34,0
+Hate Crimes,40,0
+Hate Crimes,41,0
+Hate Crimes,42,0
+Hate Crimes,43,0
+Hate Crimes,44,0
+Hate Crimes,45,0
+Hate Crimes,46,0
+Hate Crimes,47,0
+Hate Crimes,48,0
+Hate Crimes,49,0
+Hate Crimes,5,0
+Hate Crimes,50,0
+Hate Crimes,52,0
+Hate Crimes,6,0
+Hate Crimes,60,0
+Hate Crimes,61,0
+Hate Crimes,62,0
+Hate Crimes,63,0
+Hate Crimes,66,0
+Hate Crimes,67,0
+Hate Crimes,68,0
+Hate Crimes,69,0
+Hate Crimes,7,0
+Hate Crimes,70,0
+Hate Crimes,71,0
+Hate Crimes,72,0
+Hate Crimes,73,0
+Hate Crimes,75,0
+Hate Crimes,76,0
+Hate Crimes,77,0
+Hate Crimes,78,0
+Hate Crimes,79,0
+Hate Crimes,81,0
+Hate Crimes,83,0
+Hate Crimes,84,0
+Hate Crimes,88,0
+Hate Crimes,9,0
+Hate Crimes,90,0
+Hate Crimes,94,0
+Hate Crimes,Central,0
+Hate Crimes,Midtown,0
+Housing,1,0
+Housing,10,1
+Housing,100,0
+Housing,101,1
+Housing,102,0
+Housing,103,1
+Housing,104,0
+Housing,105,0
+Housing,106,0
+Housing,107,1
+Housing,108,0
+Housing,109,0
+Housing,110,0
+Housing,111,0
+Housing,112,0
+Housing,113,0
+Housing,114,0
+Housing,115,0
+Housing,120,1
+Housing,121,0
+Housing,122,1
+Housing,123,0
+Housing,13,3
+Housing,17,0
+Housing,19,2
+Housing,20,2
+Housing,23,9
+Housing,24,1
+Housing,25,3
+Housing,26,0
+Housing,28,2
+Housing,30,0
+Housing,32,2
+Housing,33,0
+Housing,34,0
+Housing,40,4
+Housing,41,0
+Housing,42,2
+Housing,43,8
+Housing,44,3
+Housing,45,0
+Housing,46,0
+Housing,47,4
+Housing,48,2
+Housing,49,4
+Housing,5,2
+Housing,50,3
+Housing,52,0
+Housing,6,0
+Housing,60,0
+Housing,61,1
+Housing,62,0
+Housing,63,0
+Housing,66,0
+Housing,67,0
+Housing,68,0
+Housing,69,1
+Housing,7,9
+Housing,70,0
+Housing,71,0
+Housing,72,0
+Housing,73,10
+Housing,75,7
+Housing,76,2
+Housing,77,3
+Housing,78,4
+Housing,79,2
+Housing,81,1
+Housing,83,1
+Housing,84,2
+Housing,88,2
+Housing,9,5
+Housing,90,8
+Housing,94,1
+Housing,Central,0
+Housing,Midtown,0
+Misd. Assault,1,5
+Misd. Assault,10,3
+Misd. Assault,100,4
+Misd. Assault,101,1
+Misd. Assault,102,10
+Misd. Assault,103,9
+Misd. Assault,104,14
+Misd. Assault,105,6
+Misd. Assault,106,6
+Misd. Assault,107,3
+Misd. Assault,108,2
+Misd. Assault,109,10
+Misd. Assault,110,4
+Misd. Assault,111,3
+Misd. Assault,112,3
+Misd. Assault,113,10
+Misd. Assault,114,12
+Misd. Assault,115,15
+Misd. Assault,120,12
+Misd. Assault,121,4
+Misd. Assault,122,2
+Misd. Assault,123,6
+Misd. Assault,13,6
+Misd. Assault,17,3
+Misd. Assault,19,5
+Misd. Assault,20,3
+Misd. Assault,23,14
+Misd. Assault,24,5
+Misd. Assault,25,7
+Misd. Assault,26,3
+Misd. Assault,28,6
+Misd. Assault,30,5
+Misd. Assault,32,10
+Misd. Assault,33,5
+Misd. Assault,34,3
+Misd. Assault,40,21
+Misd. Assault,41,7
+Misd. Assault,42,16
+Misd. Assault,43,22
+Misd. Assault,44,28
+Misd. Assault,45,12
+Misd. Assault,46,21
+Misd. Assault,47,14
+Misd. Assault,48,8
+Misd. Assault,49,5
+Misd. Assault,5,6
+Misd. Assault,50,0
+Misd. Assault,52,10
+Misd. Assault,6,7
+Misd. Assault,60,7
+Misd. Assault,61,4
+Misd. Assault,62,4
+Misd. Assault,63,3
+Misd. Assault,66,4
+Misd. Assault,67,16
+Misd. Assault,68,3
+Misd. Assault,69,4
+Misd. Assault,7,5
+Misd. Assault,70,5
+Misd. Assault,71,3
+Misd. Assault,72,7
+Misd. Assault,73,14
+Misd. Assault,75,15
+Misd. Assault,76,3
+Misd. Assault,77,9
+Misd. Assault,78,0
+Misd. Assault,79,15
+Misd. Assault,81,9
+Misd. Assault,83,6
+Misd. Assault,84,4
+Misd. Assault,88,3
+Misd. Assault,9,5
+Misd. Assault,90,5
+Misd. Assault,94,6
+Misd. Assault,Central,1
+Misd. Assault,Midtown,13
+Murder,1,0
+Murder,10,0
+Murder,100,0
+Murder,101,0
+Murder,102,0
+Murder,103,0
+Murder,104,0
+Murder,105,0
+Murder,106,1
+Murder,107,0
+Murder,108,0
+Murder,109,0
+Murder,110,0
+Murder,111,0
+Murder,112,0
+Murder,113,0
+Murder,114,0
+Murder,115,0
+Murder,120,0
+Murder,121,0
+Murder,122,0
+Murder,123,0
+Murder,13,0
+Murder,17,0
+Murder,19,0
+Murder,20,0
+Murder,23,0
+Murder,24,0
+Murder,25,0
+Murder,26,0
+Murder,28,0
+Murder,30,0
+Murder,32,0
+Murder,33,0
+Murder,34,0
+Murder,40,0
+Murder,41,0
+Murder,42,0
+Murder,43,0
+Murder,44,0
+Murder,45,0
+Murder,46,0
+Murder,47,0
+Murder,48,0
+Murder,49,0
+Murder,5,0
+Murder,50,0
+Murder,52,0
+Murder,6,0
+Murder,60,0
+Murder,61,0
+Murder,62,0
+Murder,63,0
+Murder,66,0
+Murder,67,0
+Murder,68,0
+Murder,69,0
+Murder,7,0
+Murder,70,0
+Murder,71,1
+Murder,72,0
+Murder,73,0
+Murder,75,0
+Murder,76,0
+Murder,77,1
+Murder,78,0
+Murder,79,0
+Murder,81,0
+Murder,83,0
+Murder,84,0
+Murder,88,0
+Murder,9,0
+Murder,90,0
+Murder,94,0
+Murder,Central,0
+Murder,Midtown,0
+Other Sex Crimes,1,0
+Other Sex Crimes,10,3
+Other Sex Crimes,100,0
+Other Sex Crimes,101,2
+Other Sex Crimes,102,3
+Other Sex Crimes,103,2
+Other Sex Crimes,104,1
+Other Sex Crimes,105,4
+Other Sex Crimes,106,0
+Other Sex Crimes,107,0
+Other Sex Crimes,108,0
+Other Sex Crimes,109,1
+Other Sex Crimes,110,0
+Other Sex Crimes,111,0
+Other Sex Crimes,112,0
+Other Sex Crimes,113,0
+Other Sex Crimes,114,1
+Other Sex Crimes,115,0
+Other Sex Crimes,120,2
+Other Sex Crimes,121,0
+Other Sex Crimes,122,2
+Other Sex Crimes,123,0
+Other Sex Crimes,13,3
+Other Sex Crimes,17,1
+Other Sex Crimes,19,0
+Other Sex Crimes,20,2
+Other Sex Crimes,23,1
+Other Sex Crimes,24,0
+Other Sex Crimes,25,0
+Other Sex Crimes,26,1
+Other Sex Crimes,28,0
+Other Sex Crimes,30,0
+Other Sex Crimes,32,1
+Other Sex Crimes,33,0
+Other Sex Crimes,34,0
+Other Sex Crimes,40,1
+Other Sex Crimes,41,0
+Other Sex Crimes,42,0
+Other Sex Crimes,43,0
+Other Sex Crimes,44,0
+Other Sex Crimes,45,0
+Other Sex Crimes,46,0
+Other Sex Crimes,47,0
+Other Sex Crimes,48,3
+Other Sex Crimes,49,0
+Other Sex Crimes,5,3
+Other Sex Crimes,50,0
+Other Sex Crimes,52,0
+Other Sex Crimes,6,0
+Other Sex Crimes,60,2
+Other Sex Crimes,61,2
+Other Sex Crimes,62,3
+Other Sex Crimes,63,0
+Other Sex Crimes,66,2
+Other Sex Crimes,67,1
+Other Sex Crimes,68,0
+Other Sex Crimes,69,2
+Other Sex Crimes,7,1
+Other Sex Crimes,70,1
+Other Sex Crimes,71,1
+Other Sex Crimes,72,1
+Other Sex Crimes,73,0
+Other Sex Crimes,75,1
+Other Sex Crimes,76,1
+Other Sex Crimes,77,2
+Other Sex Crimes,78,0
+Other Sex Crimes,79,2
+Other Sex Crimes,81,5
+Other Sex Crimes,83,0
+Other Sex Crimes,84,0
+Other Sex Crimes,88,0
+Other Sex Crimes,9,1
+Other Sex Crimes,90,1
+Other Sex Crimes,94,0
+Other Sex Crimes,Central,0
+Other Sex Crimes,Midtown,3
+Petit Larceny,1,52
+Petit Larceny,10,9
+Petit Larceny,100,8
+Petit Larceny,101,25
+Petit Larceny,102,21
+Petit Larceny,103,31
+Petit Larceny,104,28
+Petit Larceny,105,24
+Petit Larceny,106,22
+Petit Larceny,107,22
+Petit Larceny,108,17
+Petit Larceny,109,36
+Petit Larceny,110,31
+Petit Larceny,111,13
+Petit Larceny,112,28
+Petit Larceny,113,38
+Petit Larceny,114,65
+Petit Larceny,115,37
+Petit Larceny,120,15
+Petit Larceny,121,21
+Petit Larceny,122,11
+Petit Larceny,123,5
+Petit Larceny,13,37
+Petit Larceny,17,24
+Petit Larceny,19,61
+Petit Larceny,20,33
+Petit Larceny,23,13
+Petit Larceny,24,35
+Petit Larceny,25,13
+Petit Larceny,26,8
+Petit Larceny,28,28
+Petit Larceny,30,11
+Petit Larceny,32,17
+Petit Larceny,33,15
+Petit Larceny,34,11
+Petit Larceny,40,22
+Petit Larceny,41,2
+Petit Larceny,42,22
+Petit Larceny,43,14
+Petit Larceny,44,29
+Petit Larceny,45,17
+Petit Larceny,46,21
+Petit Larceny,47,15
+Petit Larceny,48,14
+Petit Larceny,49,23
+Petit Larceny,5,14
+Petit Larceny,50,18
+Petit Larceny,52,27
+Petit Larceny,6,32
+Petit Larceny,60,17
+Petit Larceny,61,31
+Petit Larceny,62,20
+Petit Larceny,63,24
+Petit Larceny,66,19
+Petit Larceny,67,18
+Petit Larceny,68,16
+Petit Larceny,69,9
+Petit Larceny,7,18
+Petit Larceny,70,27
+Petit Larceny,71,22
+Petit Larceny,72,14
+Petit Larceny,73,20
+Petit Larceny,75,31
+Petit Larceny,76,8
+Petit Larceny,77,14
+Petit Larceny,78,27
+Petit Larceny,79,36
+Petit Larceny,81,12
+Petit Larceny,83,37
+Petit Larceny,84,19
+Petit Larceny,88,14
+Petit Larceny,9,15
+Petit Larceny,90,22
+Petit Larceny,94,15
+Petit Larceny,Central,0
+Petit Larceny,Midtown,50
+Rape,1,0
+Rape,10,0
+Rape,100,0
+Rape,101,0
+Rape,102,0
+Rape,103,0
+Rape,104,0
+Rape,105,1
+Rape,106,0
+Rape,107,2
+Rape,108,0
+Rape,109,0
+Rape,110,0
+Rape,111,0
+Rape,112,0
+Rape,113,0
+Rape,114,0
+Rape,115,0
+Rape,120,0
+Rape,121,0
+Rape,122,2
+Rape,123,0
+Rape,13,0
+Rape,17,0
+Rape,19,0
+Rape,20,0
+Rape,23,0
+Rape,24,0
+Rape,25,0
+Rape,26,0
+Rape,28,1
+Rape,30,0
+Rape,32,0
+Rape,33,1
+Rape,34,0
+Rape,40,1
+Rape,41,1
+Rape,42,0
+Rape,43,3
+Rape,44,1
+Rape,45,1
+Rape,46,0
+Rape,47,1
+Rape,48,0
+Rape,49,0
+Rape,5,1
+Rape,50,0
+Rape,52,0
+Rape,6,0
+Rape,60,0
+Rape,61,0
+Rape,62,0
+Rape,63,1
+Rape,66,0
+Rape,67,1
+Rape,68,0
+Rape,69,0
+Rape,7,0
+Rape,70,3
+Rape,71,0
+Rape,72,0
+Rape,73,0
+Rape,75,0
+Rape,76,0
+Rape,77,1
+Rape,78,0
+Rape,79,0
+Rape,81,0
+Rape,83,1
+Rape,84,0
+Rape,88,0
+Rape,9,0
+Rape,90,1
+Rape,94,0
+Rape,Central,0
+Rape,Midtown,0
+Robbery,1,6
+Robbery,10,0
+Robbery,100,1
+Robbery,101,3
+Robbery,102,0
+Robbery,103,3
+Robbery,104,1
+Robbery,105,5
+Robbery,106,3
+Robbery,107,4
+Robbery,108,0
+Robbery,109,9
+Robbery,110,7
+Robbery,111,0
+Robbery,112,2
+Robbery,113,2
+Robbery,114,4
+Robbery,115,7
+Robbery,120,4
+Robbery,121,1
+Robbery,122,1
+Robbery,123,1
+Robbery,13,3
+Robbery,17,3
+Robbery,19,7
+Robbery,20,2
+Robbery,23,5
+Robbery,24,0
+Robbery,25,4
+Robbery,26,0
+Robbery,28,2
+Robbery,30,4
+Robbery,32,2
+Robbery,33,3
+Robbery,34,11
+Robbery,40,3
+Robbery,41,2
+Robbery,42,11
+Robbery,43,4
+Robbery,44,6
+Robbery,45,3
+Robbery,46,4
+Robbery,47,12
+Robbery,48,3
+Robbery,49,6
+Robbery,5,6
+Robbery,50,1
+Robbery,52,10
+Robbery,6,3
+Robbery,60,2
+Robbery,61,1
+Robbery,62,3
+Robbery,63,0
+Robbery,66,1
+Robbery,67,5
+Robbery,68,0
+Robbery,69,0
+Robbery,7,6
+Robbery,70,5
+Robbery,71,6
+Robbery,72,0
+Robbery,73,5
+Robbery,75,20
+Robbery,76,0
+Robbery,77,5
+Robbery,78,2
+Robbery,79,2
+Robbery,81,0
+Robbery,83,6
+Robbery,84,2
+Robbery,88,1
+Robbery,9,0
+Robbery,90,4
+Robbery,94,3
+Robbery,Central,0
+Robbery,Midtown,3
+Shooting Inc.,1,1
+Shooting Inc.,10,0
+Shooting Inc.,100,0
+Shooting Inc.,101,2
+Shooting Inc.,102,0
+Shooting Inc.,103,2
+Shooting Inc.,104,0
+Shooting Inc.,105,0
+Shooting Inc.,106,1
+Shooting Inc.,107,0
+Shooting Inc.,108,0
+Shooting Inc.,109,0
+Shooting Inc.,110,0
+Shooting Inc.,111,0
+Shooting Inc.,112,0
+Shooting Inc.,113,1
+Shooting Inc.,114,0
+Shooting Inc.,115,0
+Shooting Inc.,120,0
+Shooting Inc.,121,0
+Shooting Inc.,122,0
+Shooting Inc.,123,0
+Shooting Inc.,13,0
+Shooting Inc.,17,0
+Shooting Inc.,19,0
+Shooting Inc.,20,1
+Shooting Inc.,23,0
+Shooting Inc.,24,0
+Shooting Inc.,25,1
+Shooting Inc.,26,0
+Shooting Inc.,28,0
+Shooting Inc.,30,0
+Shooting Inc.,32,1
+Shooting Inc.,33,1
+Shooting Inc.,34,0
+Shooting Inc.,40,1
+Shooting Inc.,41,0
+Shooting Inc.,42,0
+Shooting Inc.,43,0
+Shooting Inc.,44,0
+Shooting Inc.,45,0
+Shooting Inc.,46,2
+Shooting Inc.,47,2
+Shooting Inc.,48,1
+Shooting Inc.,49,0
+Shooting Inc.,5,0
+Shooting Inc.,50,0
+Shooting Inc.,52,1
+Shooting Inc.,6,0
+Shooting Inc.,60,0
+Shooting Inc.,61,0
+Shooting Inc.,62,0
+Shooting Inc.,63,0
+Shooting Inc.,66,1
+Shooting Inc.,67,1
+Shooting Inc.,68,0
+Shooting Inc.,69,0
+Shooting Inc.,7,0
+Shooting Inc.,70,1
+Shooting Inc.,71,0
+Shooting Inc.,72,0
+Shooting Inc.,73,2
+Shooting Inc.,75,5
+Shooting Inc.,76,2
+Shooting Inc.,77,2
+Shooting Inc.,78,1
+Shooting Inc.,79,0
+Shooting Inc.,81,0
+Shooting Inc.,83,1
+Shooting Inc.,84,0
+Shooting Inc.,88,0
+Shooting Inc.,9,0
+Shooting Inc.,90,1
+Shooting Inc.,94,0
+Shooting Inc.,Central,0
+Shooting Inc.,Midtown,0
+Shooting Vic.,1,1
+Shooting Vic.,10,0
+Shooting Vic.,100,0
+Shooting Vic.,101,3
+Shooting Vic.,102,0
+Shooting Vic.,103,2
+Shooting Vic.,104,0
+Shooting Vic.,105,0
+Shooting Vic.,106,1
+Shooting Vic.,107,0
+Shooting Vic.,108,0
+Shooting Vic.,109,0
+Shooting Vic.,110,0
+Shooting Vic.,111,0
+Shooting Vic.,112,0
+Shooting Vic.,113,1
+Shooting Vic.,114,0
+Shooting Vic.,115,0
+Shooting Vic.,120,0
+Shooting Vic.,121,0
+Shooting Vic.,122,0
+Shooting Vic.,123,0
+Shooting Vic.,13,0
+Shooting Vic.,17,0
+Shooting Vic.,19,0
+Shooting Vic.,20,2
+Shooting Vic.,23,0
+Shooting Vic.,24,0
+Shooting Vic.,25,1
+Shooting Vic.,26,0
+Shooting Vic.,28,0
+Shooting Vic.,30,0
+Shooting Vic.,32,1
+Shooting Vic.,33,1
+Shooting Vic.,34,0
+Shooting Vic.,40,1
+Shooting Vic.,41,0
+Shooting Vic.,42,0
+Shooting Vic.,43,0
+Shooting Vic.,44,0
+Shooting Vic.,45,0
+Shooting Vic.,46,2
+Shooting Vic.,47,2
+Shooting Vic.,48,1
+Shooting Vic.,49,0
+Shooting Vic.,5,0
+Shooting Vic.,50,0
+Shooting Vic.,52,1
+Shooting Vic.,6,0
+Shooting Vic.,60,0
+Shooting Vic.,61,0
+Shooting Vic.,62,0
+Shooting Vic.,63,0
+Shooting Vic.,66,1
+Shooting Vic.,67,1
+Shooting Vic.,68,0
+Shooting Vic.,69,0
+Shooting Vic.,7,0
+Shooting Vic.,70,1
+Shooting Vic.,71,0
+Shooting Vic.,72,0
+Shooting Vic.,73,2
+Shooting Vic.,75,6
+Shooting Vic.,76,2
+Shooting Vic.,77,3
+Shooting Vic.,78,4
+Shooting Vic.,79,0
+Shooting Vic.,81,0
+Shooting Vic.,83,1
+Shooting Vic.,84,0
+Shooting Vic.,88,0
+Shooting Vic.,9,0
+Shooting Vic.,90,1
+Shooting Vic.,94,0
+Shooting Vic.,Central,0
+Shooting Vic.,Midtown,0
+TOTAL,1,31
+TOTAL,10,14
+TOTAL,100,8
+TOTAL,101,13
+TOTAL,102,14
+TOTAL,103,32
+TOTAL,104,29
+TOTAL,105,34
+TOTAL,106,17
+TOTAL,107,22
+TOTAL,108,9
+TOTAL,109,47
+TOTAL,110,26
+TOTAL,111,16
+TOTAL,112,17
+TOTAL,113,26
+TOTAL,114,24
+TOTAL,115,25
+TOTAL,120,18
+TOTAL,121,23
+TOTAL,122,16
+TOTAL,123,8
+TOTAL,13,26
+TOTAL,17,25
+TOTAL,19,45
+TOTAL,20,16
+TOTAL,23,30
+TOTAL,24,13
+TOTAL,25,19
+TOTAL,26,8
+TOTAL,28,17
+TOTAL,30,15
+TOTAL,32,18
+TOTAL,33,18
+TOTAL,34,31
+TOTAL,40,28
+TOTAL,41,22
+TOTAL,42,34
+TOTAL,43,57
+TOTAL,44,33
+TOTAL,45,24
+TOTAL,46,36
+TOTAL,47,65
+TOTAL,48,29
+TOTAL,49,24
+TOTAL,5,16
+TOTAL,50,29
+TOTAL,52,32
+TOTAL,6,23
+TOTAL,60,18
+TOTAL,61,21
+TOTAL,62,16
+TOTAL,63,16
+TOTAL,66,19
+TOTAL,67,25
+TOTAL,68,14
+TOTAL,69,7
+TOTAL,7,21
+TOTAL,70,38
+TOTAL,71,20
+TOTAL,72,17
+TOTAL,73,35
+TOTAL,75,76
+TOTAL,76,5
+TOTAL,77,23
+TOTAL,78,14
+TOTAL,79,17
+TOTAL,81,16
+TOTAL,83,30
+TOTAL,84,15
+TOTAL,88,9
+TOTAL,9,21
+TOTAL,90,35
+TOTAL,94,17
+TOTAL,Central,0
+TOTAL,Midtown,38
+Transit,1,3
+Transit,10,0
+Transit,100,0
+Transit,101,0
+Transit,102,0
+Transit,103,0
+Transit,104,1
+Transit,105,0
+Transit,106,0
+Transit,107,1
+Transit,108,0
+Transit,109,0
+Transit,110,1
+Transit,111,0
+Transit,112,0
+Transit,113,0
+Transit,114,0
+Transit,115,0
+Transit,120,0
+Transit,121,0
+Transit,122,0
+Transit,123,0
+Transit,13,0
+Transit,17,0
+Transit,19,0
+Transit,20,0
+Transit,23,1
+Transit,24,0
+Transit,25,0
+Transit,26,0
+Transit,28,0
+Transit,30,1
+Transit,32,1
+Transit,33,1
+Transit,34,1
+Transit,40,1
+Transit,41,0
+Transit,42,0
+Transit,43,1
+Transit,44,0
+Transit,45,0
+Transit,46,0
+Transit,47,0
+Transit,48,0
+Transit,49,0
+Transit,5,0
+Transit,50,0
+Transit,52,1
+Transit,6,1
+Transit,60,0
+Transit,61,0
+Transit,62,0
+Transit,63,0
+Transit,66,0
+Transit,67,0
+Transit,68,0
+Transit,69,0
+Transit,7,0
+Transit,70,0
+Transit,71,1
+Transit,72,0
+Transit,73,1
+Transit,75,4
+Transit,76,0
+Transit,77,1
+Transit,78,0
+Transit,79,1
+Transit,81,0
+Transit,83,0
+Transit,84,1
+Transit,88,0
+Transit,9,0
+Transit,90,0
+Transit,94,1
+Transit,Central,0
+Transit,Midtown,3
+UCR Rape*,1,0
+UCR Rape*,10,0
+UCR Rape*,100,0
+UCR Rape*,101,0
+UCR Rape*,102,0
+UCR Rape*,103,0
+UCR Rape*,104,0
+UCR Rape*,105,1
+UCR Rape*,106,0
+UCR Rape*,107,2
+UCR Rape*,108,0
+UCR Rape*,109,0
+UCR Rape*,110,4
+UCR Rape*,111,0
+UCR Rape*,112,0
+UCR Rape*,113,0
+UCR Rape*,114,1
+UCR Rape*,115,0
+UCR Rape*,120,0
+UCR Rape*,121,0
+UCR Rape*,122,2
+UCR Rape*,123,0
+UCR Rape*,13,0
+UCR Rape*,17,0
+UCR Rape*,19,0
+UCR Rape*,20,0
+UCR Rape*,23,0
+UCR Rape*,24,0
+UCR Rape*,25,0
+UCR Rape*,26,0
+UCR Rape*,28,1
+UCR Rape*,30,0
+UCR Rape*,32,1
+UCR Rape*,33,1
+UCR Rape*,34,0
+UCR Rape*,40,1
+UCR Rape*,41,2
+UCR Rape*,42,0
+UCR Rape*,43,3
+UCR Rape*,44,1
+UCR Rape*,45,1
+UCR Rape*,46,0
+UCR Rape*,47,2
+UCR Rape*,48,0
+UCR Rape*,49,0
+UCR Rape*,5,1
+UCR Rape*,50,0
+UCR Rape*,52,0
+UCR Rape*,6,0
+UCR Rape*,60,2
+UCR Rape*,61,0
+UCR Rape*,62,0
+UCR Rape*,63,1
+UCR Rape*,66,1
+UCR Rape*,67,2
+UCR Rape*,68,0
+UCR Rape*,69,0
+UCR Rape*,7,0
+UCR Rape*,70,4
+UCR Rape*,71,1
+UCR Rape*,72,0
+UCR Rape*,73,0
+UCR Rape*,75,1
+UCR Rape*,76,0
+UCR Rape*,77,1
+UCR Rape*,78,1
+UCR Rape*,79,0
+UCR Rape*,81,0
+UCR Rape*,83,1
+UCR Rape*,84,0
+UCR Rape*,88,0
+UCR Rape*,9,0
+UCR Rape*,90,1
+UCR Rape*,94,0
+UCR Rape*,Central,0
+UCR Rape*,Midtown,0

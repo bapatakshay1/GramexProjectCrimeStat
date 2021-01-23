@@ -1,20 +1,64 @@
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-  <title>A Leaflet map!</title>
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>myfirstapp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script type="text/javascript" src="1.geojson"></script>
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
- 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
 
   <style>
     #map{ height: 100% }
   </style>
 </head>
+<div id="map"></div>
+
 <body>
-
-  <div id="map"></div>
-
-  <script>
+  {% set base = '.' %}
+  {% include template-navbar.html %}
+  <!-- TODO: Filter bars -->
+  <div class="container-fluid py-4">
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-header bg-white d-flex justify-content-between">
+          <h5 class="card-title my-0">Chart title</h5>
+          <div class="d-flex align-items-center small">
+            <span class="text-muted ml-2">Legend:</span>
+            <span class="ml-2"><i class="fas fa-circle text-success"></i> Good</span>
+            <span class="ml-2"><i class="fas fa-circle text-danger"></i> Bad</span>
+          </div>
+        </div><!-- .card-header -->
+        <div class="card-body">
+          <img class="img-fluid" src="https://learn.gramener.com/guide/formhandler/chart?_format=barchart" alt="" >
+        </div><!-- .card-body -->
+      </div><!-- .card -->
+      <div class="card">
+        <div class="card-header bg-white d-flex justify-content-between">
+          <h5 class="card-title my-0">Chart title</h5>
+          <div class="d-flex align-items-center small">
+            <span class="text-muted ml-2">Legend:</span>
+            <span class="ml-2"><i class="fas fa-circle text-success"></i> Good</span>
+            <span class="ml-2"><i class="fas fa-circle text-danger"></i> Bad</span>
+          </div>
+        </div><!-- .card-header -->
+        <div class="card-body">
+          <img class="img-fluid" src="https://learn.gramener.com/guide/formhandler/categorical?chart=jointplot&xcol=c1&ycol=c3&width=400&height=300" alt="" >
+        </div><!-- .card-body -->
+      </div><!-- .card -->
+    </div><!-- .card -->
+  </div><!-- .container-fluid -->
+<script>
 
 var map = L.map('map' /* The id of the DOM element that will contain the map */);
 	
@@ -26,36 +70,106 @@ var baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}
   subdomains: '1234',
   bounds: L.latLngBounds([39.3682, -75.9374], [42.0329, -71.7187])
 });
+var popup = L.popup();
+
 
 map.addLayer(baseLayer);
 
-var one;
-
-$.ajax({
-    type: "GET",
-    url: "1.geojson",
-    dataType: 'json',
-    async: false,
-    success: function (response) {
-       features = new ol.format.GeoJSON().readFeatures(response);
-    }
-});
-
-var two;
-
-$.ajax({
-    type: "GET",
-    url: "2.geojson",
-    dataType: 'json',
-    async: false,
-    success: function (response) {
-       features = new ol.format.GeoJSON().readFeatures(response);
-    }
-});
-L.geoJson(two).addTo(map);
-L.geoJson(one).addTo(map);
 
 
-  </script>
+var one=$.ajax({
+ url:'one.geojson',
+ dataType: "json",
+ success: function(data){L.geoJson(data, {style: myStyle, onEachFeature: onEachFeature}).addTo(map)},
+ complete: function (data) {
+  console.log(data);
+ }
+})
+
+
+function getColor(d) {
+    return d > 1000 ? 'orange' :
+           d > 500  ? 'yello' :
+           d > 200  ? 'green' :
+           d > 100  ? 'pink' :
+           d > 50   ? 'blue' :
+           d > 20   ? 'black' :
+           d > 10   ? 'red' :
+                      'orange';
+}
+
+function myStyle(feature) {
+    return {
+        fillColor: getColor(feature.properties.crime),
+        weight: 2,
+        opacity: 1,
+        color: 'orange',
+        fillOpacity: 0.5
+    };
+}
+
+
+function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    layer.on({
+      mouseover:function(){
+        if (feature.properties && feature.properties.precinct) 
+          layer.bindPopup("<strong> Precinct: </strong>"+feature.properties.precinct 
+          +'<br />' +feature.properties.shape_leng+'<br />' +getBorough(feature.properties.precinct));
+      }
+    })
+    
+}
+function getBorough(d) {
+    if(52>= d && d>= 40)
+      return 'Bronx'
+    if(94>= d && d>= 60)
+      return 'Brooklyn'
+    if(34 >= d && d >= 1)
+      return 'Manhattan'
+    if (115 > d && d >= 100)
+      return 'Queens'
+    if(123 >= d && d>= 120)
+      return 'Staten Island'
+}
+SameSite=None; Secure
+// function arrayToTable(tableData) {
+//     var table = $('<table></table>');
+//     $(tableData).each(function (i, rowData) {
+//             var row = $('<tr></tr>');
+//             $(rowData).each(function (j, cellData) {
+//                 row.append($('<td>'+cellData+'</td>'));
+//             });
+//             table.append(row);
+//         });
+//         return table;
+//     }
+
+//     var crimeStat=[]
+
+//        $.ajax({
+//         type: "GET",
+//         url: "MostCrimeinEachPrecinct.csv",
+//         success: function (data) {$('body').append(arrayToTable(Papa.parse(data).data));
+//         complete: console.log(data.split('\n')[i])
+//         }
+//       });
+   
+
+</script>
+  <script src="ui/jquery/dist/jquery.min.js"></script>
+  <script src="ui/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Commonly used libraries:
+  <script src="ui/d3v5/dist/d3.min.js"></script>
+  <script src="ui/lodash/lodash.min.js"></script>
+  <script src="ui/morphdom/dist/morphdom-umd.min.js"></script>
+  <script src="ui/g1/dist/g1.min.js"></script>
+  <script src="ui/dayjs/dayjs.min.js"></script>
+  <script src="ui/daterangepicker/daterangepicker.js"></script>
+  <script src="ui/leaflet/dist/leaflet.js"></script>
+  <script src="ui/topojson/dist/topojson.min.js"></script>
+  -->
+ 
 </body>
+
 </html>
