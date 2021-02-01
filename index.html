@@ -26,6 +26,7 @@
 </head>
 
 <body>
+  
   {% set base = '.' %}
   {% include template-navbar.html %}
   <!-- TODO: Filter bars -->
@@ -34,8 +35,65 @@
       <div class="col-md-6">
         <div id="map"></div>
       </div>
-      <div class="col-md-6">
-        Hello World
+      <div class="sidebar">
+        <script>
+        var dropDownMenu = document.getElementById("CrimeTypes");
+        dropDownMenu.addEventListener("change", generateData);
+        
+        function generateData(event) {
+          if (dropDownMenu.value == 'Petit Larcency') {
+            alert(1);
+          } else if (dropDownMenu.value == 'Grand Larcency') {
+            alert(2);
+          } else if (dropDownMenu.value == 'Misd. Assault') {
+            alert(3);
+          }
+        }
+        </script>
+          <label for="CrimeTypes">Select a Crime type:</label>
+          <select id="CrimeTypes">
+          <option value="Petit Larcency">Petit Larcency</option>
+          <option value="Grand Larcency">Grand Larcency</option>
+          <option value="Misd. Assault">Misd. Assault</option>
+        </select>
+        <script>
+        $.ajax({
+            url: 'MostCrimeinEachPrecinct.csv',
+            dataType: 'text',}).done(successFunction).css( 'background-color', dateToColor(data[2]));
+    function successFunction(data) {
+        var allRows = data.split(/\r?\n|\r/);
+        var table = '<table>';
+        for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+          if (singleRow === 0) {
+            table += '<thead>';
+            table += '<tr>';
+          } else {
+            table += '<tr>';
+          }
+          var rowCells = allRows[singleRow].split(',');
+          for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+            if (singleRow === 0) {
+              table += '<th>';
+              table += rowCells[rowCell];
+              table += '</th>';
+            } else {
+              table += '<td>';
+              table += rowCells[rowCell];
+              table += '</td>';}}
+          if (singleRow === 0) {
+            table += '</tr>';
+            table += '</thead>';
+            table += '<tbody>';} 
+          else {
+            table += '</tr>';
+          }
+        } 
+        table += '</tbody>';
+        table += '</table>';
+        $('body').append(table);
+      }
+        </script>
+        
       </div>
     </div>
   </div><!-- .container-fluid -->
@@ -94,7 +152,7 @@
                 fillColor: p_val,
                 weight: 2,
                 opacity: 1,
-                color: 'orange',
+                color: 'white',
                 fillOpacity: 0.5
               };
             },
@@ -102,10 +160,8 @@
           }).addTo(map)
         })
       },
-      complete: function (data) {
-        console.log(data);
       }
-    })
+    )
 
     // min & max of crime data
     // d3.js color them dynamiccally - skip this
