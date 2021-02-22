@@ -23,6 +23,11 @@
       height: 90vh;
     }
 
+    #datatable {
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 90vh; 
+}
     table,
     th,
     td {
@@ -80,6 +85,7 @@
       </div>
     </div><!-- .container-fluid -->
   </div>
+
   <script src="ui/jquery/dist/jquery.min.js"></script>
   <script src="ui/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="ui/lodash/lodash.min.js"></script>
@@ -169,7 +175,7 @@
           url: 'one.geojson',
           dataType: "json",
           success: function (data) {
-            $.getJSON('data', function (crimedata) {
+            $.getJSON('data'/*input Data FIle we want here*/, function (crimedata) {
               $('script.datatable').template({
                 data: crimedata
               })
