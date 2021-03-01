@@ -30,9 +30,26 @@ url:
     pattern: /$YAMLURL/TopCrimeYTD
     handler: FormHandler
     kwargs:
-      url: sqlite:///$YAMLPATH/save_pandas.db
+      url: sqlite:///$YAMLPATH/save_rawdata.db
       table: TopCrimes
-      modify: data.topCrimeYTD(data, handler)
+      modify: myfirstapp.topCrimeYTD(data, handler)
+  
+  TopCrimeWTD-data:
+    pattern: /$YAMLURL/TopCrimeWTD
+    handler: FormHandler
+    kwargs:
+      url: sqlite:///$YAMLPATH/save_rawdata.db
+      table: TopCrimes
+      modify: myfirstapp.topCrimeWTD(data, handler)
+      
+  TopCrimeMTD-data:
+    pattern: /$YAMLURL/TopCrimeMTD
+    handler: FormHandler
+    kwargs:
+      url: sqlite:///$YAMLPATH/save_rawdata.db
+      table: TopCrimes
+      modify: myfirstapp.topCrimeMTD(data, handler)
+
   myfirstapp-login:
     pattern: /$YAMLURL/login/
     # You MUST change the auth before deploying. DBAuth is commonly used.
