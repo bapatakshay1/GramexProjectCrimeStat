@@ -43,6 +43,11 @@
   {% set base = '.' %}
   {% include template-navbar.html %}
   <!-- TODO: Filter bars -->
+    <label for="amount">Donation amount ($50 increments):</label>
+  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+
+  <!--slider-->
+
   <div class="container-fluid py-4">
     <div class="row">
       <div class="col-md-13">
@@ -100,6 +105,11 @@
   <script src="ui/topojson/dist/topojson.min.js"></script>
   -->
   <script>
+    //Slider Script
+//     $("ex6").slider();
+//     $("ex6").on("slide", function(slideEvt) {
+// 	  $("#ex6SliderVal").text(slideEvt.value);
+// });
     var map = L.map('map'); /* The id of the DOM element that will contain the map */
 
     map.setView([40.703312, -73.97968], 11);
@@ -175,7 +185,7 @@
           url: 'one.geojson',
           dataType: "json",
           success: function (data) {
-            $.getJSON('data'/*input Data FIle we want here*/, function (crimedata) {
+            $.getJSON('TopCrimeYTD'/*input Data FIle we want here*/, function (crimedata) {
               $('script.datatable').template({
                 data: crimedata
               })
@@ -186,7 +196,7 @@
               L.geoJson(data, {
                 style: function (feature) {
                   var p_val = crimedata.filter(d => d.precinct == feature.properties.precinct)
-                  p_val = p_val.length > 0 ? ScaleGener(p_val[0].top5CrimeByPrecWTD) : "#000";
+                  p_val = p_val.length > 0 ? ScaleGener(p_val[0].top5CrimeByPrecYTD) : "#000";
                   return {
                     fillColor: p_val,
                     weight: 2,
@@ -205,7 +215,9 @@
         alert(3)
       }
     }
+</script>
   </script>
+
 </body>
 
 </html>
